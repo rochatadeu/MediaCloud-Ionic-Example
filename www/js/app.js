@@ -44,6 +44,13 @@ angular.module('mc', ['ionic', 'mc.controllers', 'mc.services', 'mc.config'])
     }
   });
 
+//  .state('app.about', {
+//    cache: false,
+//    url: '/about',
+//  templateUrl: 'templates/about.html',
+//  controller: 'AboutCtrl'
+//  });
+
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/search/kittens');
+  $urlRouterProvider.otherwise('/app/about');
 });

@@ -4,6 +4,10 @@ angular.module('mc.controllers', [])
 
 })
 
+.controller('AboutCtrl', function($scope) {
+
+})
+
 .controller('SearchCtrl', function($scope, $stateParams, MediaCloud){
   $scope.keyword = $stateParams.keyword;
   $scope.data = {};
